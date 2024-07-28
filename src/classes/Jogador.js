@@ -2,20 +2,26 @@ const Personagem = require("../classes/Personagem.js");
 
 class Jogador extends Personagem {
     moedas = 0;
+    forcaAtaqueEsp = 0;
 
-    constructor(vida, forcaAtaqueEsp, nome, sexo, forca) {
+    constructor(nome, sexo, forca, vida, forcaAtaqueEsp) {
         super(vida, forcaAtaqueEsp);
         this.nome = nome;
         this.sexo = sexo;
+        this.vida = vida;
+        this.forcaAtaqueEsp = forcaAtaqueEsp;
         this.forca = forca;
     }
 
     statusPersonagem() {
+        console.log('\n');
+        console.log('****** Status do Personagem ******');
         console.log();
         console.log(`Nome: ${this.nome}`);
         console.log(`Vida: ${this.vida}%`);
-        console.log(`Sexo: ${this.sexo}%`);
-        console.log(`Força: ${this.forca}%`);
+        console.log(`Sexo: ${this.sexo}`);
+        console.log(`Força: ${this.forca} pontos`);
+        console.log(`Moedas: C$ ${this.moedas}`);
         console.log();
     }
 

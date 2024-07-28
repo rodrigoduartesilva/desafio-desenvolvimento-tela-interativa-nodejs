@@ -11,7 +11,7 @@ async function exibirIntroducao() {
     console.log('\n');
     await delay(2000);
 
-    console.log('Conhecido como Lutadores, esse torneio reuniao os melhores lutadores de cada bairro...');
+    console.log('Conhecido como "Lutadores", esse torneio reunia os melhores lutadores de cada bairro...');
     console.log('\n');
     await delay(2000);
 

@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 function selecionarSexoDoPersonagem() {
 
     let sexoSelecionado;
-    const sexo = +prompt('Escolhao sexo do seu personagem: 1 - Masculino | 2 - Feminino: ');
+    const sexo = +prompt('Escolha o sexo do seu personagem: 1 - Masculino | 2 - Feminino: ');
 
     switch (sexo) {
         case 1:
