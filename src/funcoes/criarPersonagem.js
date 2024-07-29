@@ -16,10 +16,12 @@ function criarPersonagem() {
     let pontoDeForca = 20;
     let vida = 100;
     let forcaAtaqueEsp = 0;
+    let specialCoin = 0;
+    let wheyProtein = 0;
 
     sexo == 'Masculino' ? console.log(`O lutador ${nomePersonagem} terá inicialmente ${pontoDeForca} pontos de força.`) : console.log(`A lutadora ${nomePersonagem} terá inicialmente ${pontoDeForca} pontos de força.`);
 
-    const jogador = new Jogador(nomePersonagem, sexo, pontoDeForca, vida, forcaAtaqueEsp);
+    const jogador = new Jogador(nomePersonagem, sexo, pontoDeForca, vida, forcaAtaqueEsp, specialCoin, wheyProtein);
 
     jogador.statusPersonagem();
 

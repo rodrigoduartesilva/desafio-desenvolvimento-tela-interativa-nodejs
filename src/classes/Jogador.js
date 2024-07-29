@@ -3,14 +3,18 @@ const Personagem = require("../classes/Personagem.js");
 class Jogador extends Personagem {
     moedas = 0;
     forcaAtaqueEsp = 0;
+    specialCoin = 0;
+    wheyProtein = 0;
 
-    constructor(nome, sexo, forca, vida, forcaAtaqueEsp) {
+    constructor(nome, sexo, forca, vida, forcaAtaqueEsp, specialCoin, wheyProtein) {
         super(vida, forcaAtaqueEsp);
         this.nome = nome;
         this.sexo = sexo;
         this.vida = vida;
         this.forcaAtaqueEsp = forcaAtaqueEsp;
         this.forca = forca;
+        this.specialCoin = specialCoin;
+        this.wheyProtein = wheyProtein;
     }
 
     statusPersonagem() {
@@ -22,6 +26,8 @@ class Jogador extends Personagem {
         console.log(`Sexo: ${this.sexo}`);
         console.log(`Força: ${this.forca} pontos`);
         console.log(`Moedas: C$ ${this.moedas}`);
+        console.log(`Special Coin: ${this.specialCoin}`);
+        console.log(`Whey Protein: ${this.wheyProtein}`);
         console.log();
     }
 
@@ -39,7 +45,7 @@ class Jogador extends Personagem {
     }
 
     somarMoedas(moedas) {
-        this.moedas = moedas;
+        this.moedas += moedas;
     }
 
     sacarMoedas(moedas) {

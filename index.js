@@ -1,3 +1,4 @@
+const iniciarCapUm = require('./src/funcoes/capitulos/iniciarCapUm.js');
 const iniciarPrologo = require('./src/funcoes/capitulos/iniciarPrologo.js');
 const criarPersonagem = require('./src/funcoes/criarPersonagem.js');
 const exibirIntroducao = require('./src/funcoes/exibirIntroducao.js');
@@ -14,4 +15,7 @@ pressionarEnter();
 
 let jogador = criarPersonagem();
 
-iniciarPrologo(jogador);
+pressionarEnter();
+
+//iniciarPrologo(jogador);
+iniciarCapUm(jogador);
