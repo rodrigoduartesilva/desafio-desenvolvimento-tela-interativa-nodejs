@@ -20,7 +20,7 @@ class Jogador extends Personagem {
     statusPersonagem() {
         console.log('\n');
         console.log('****** Status do Personagem ******');
-        console.log();
+        console.log('\n');
         console.log(`Nome: ${this.nome}`);
         console.log(`Vida: ${this.vida}%`);
         console.log(`Sexo: ${this.sexo}`);
@@ -28,7 +28,7 @@ class Jogador extends Personagem {
         console.log(`Moedas: C$ ${this.moedas}`);
         console.log(`Special Coin: ${this.specialCoin}`);
         console.log(`Whey Protein: ${this.wheyProtein}`);
-        console.log();
+        console.log('\n');
     }
 
     alimentar(fome, vida) {
@@ -40,16 +40,12 @@ class Jogador extends Personagem {
         this.forca += treino;
     }
 
-    somarPontos(pontos) {
-        this.pontos += pontos;
-    }
-
     somarMoedas(moedas) {
         this.moedas += moedas;
     }
 
     sacarMoedas(moedas) {
-        this.moedas = moedas;
+        this.moedas -= moedas;
     }
 
     restaurarStatus() {
@@ -57,7 +53,7 @@ class Jogador extends Personagem {
         this.forca = 100;
     }
 
-    restaurarVida(vida) {
+    restaurarVida() {
         this.vida += 100;
     }
 
@@ -67,7 +63,6 @@ class Jogador extends Personagem {
 
     defender(golpe) {
         this.vida -= golpe;
-        this.forca -= golpe;
     }
 }
 
