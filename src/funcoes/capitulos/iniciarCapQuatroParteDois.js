@@ -35,8 +35,9 @@ function iniciarCapQuatroParteDois(jogador) {
     console.log('\n');
     console.log(`E aos gritos, ${jogador.nome} fala: No dia mais claro, na noite mais densa, o mal sucumbirá ante minha presença. Todo aquele que venera o mal há de penar quando o poder d${nomeItem} enfrentar!`);
     console.log('\n');
-    console.log(`E então, ${jogador.nome} usa ${nomeItem}!`);
+    pressionarEnter()
     console.log('\n');
+    console.log(`E então, ${jogador.nome} usa ${nomeItem}!`);
 
 
     if (jogador.specialCoin > 0) {

@@ -31,7 +31,6 @@ function iniciarCapQuatroParteFinal(jogador) {
 
     calcularParImpar(jogador, magnanimus);
 
-    console.log('\n');
     console.log(`Você conseguiu!! Um incrédulo ${magnanimus.nome} indaga.`);
     console.log('\n');
     console.log(`Acabou primo! Volte conosco pra casa! Traga também Samira - A gata! Disse ${jogador.nome}.`);

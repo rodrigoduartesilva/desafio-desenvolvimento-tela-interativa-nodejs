@@ -20,6 +20,7 @@ function iniciarPrologo(jogador) {
     console.log(`No final da manhã, ${jogador.nome} se preparava para iniciar seu treino, quando tio Jeremias deu-lhe C$ 10 pela manhã de trabalho!`);
     console.log('\n');
     jogador.somarMoedas(10);
+    pressionarEnter();
     jogador.statusPersonagem();
     console.log(`${jogador.nome} sorriu e agradeceu seu tio, e logo em seguida, saiu para seu treino, afinal, o dia estava apenas começando!`);
     console.log('\n');

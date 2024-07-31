@@ -31,7 +31,7 @@ function iniciarCapTres(jogador) {
     console.log('\n');
     console.log(`${(oponenteCaptres.nome).slice(0, 10)} sempre usava de mentiras e calunias para se sair bem. Antes de ir trapacear nas arenas, ela era pedicure, mas um dia ela chegou no trabalho e a policia havia interditado o local por suspeita de tráfico de DORGAS.`);
     console.log('\n');
-    console.log(`Dorgas era um alucinógeno criado a partir da podobromidrose (na minha terra o povo chama isso de chulé!), o criador desse alucinógeno era ninguem menos que Eduanaldo Andranofildes, o filho mais novo de ${(oponenteCaptres.nome).slice(0, 10)}.`);
+    console.log(`Dorgas era um alucinógeno criado a partir da podobromidrose (na minha terra o povo chama isso de chulé!), o criador desse alucinógeno era ninguem menos que Dunaldo Andranofildes, o filho mais novo de ${(oponenteCaptres.nome).slice(0, 10)}.`);
     console.log('\n');
     pressionarEnter();
     console.log('\n');
@@ -39,7 +39,7 @@ function iniciarCapTres(jogador) {
     console.log('\n');
     console.log(`Quando ele criou a Dorgas, ele sentiu que poderia continuar sendo ruim em todas as áreas da vida dele, porém, com a ajuda da mãe que era a mestra da mentira, ele conseguiria um trocado (pelo menos).`);
     console.log('\n');
-    console.log(`Além do filho desajustado, ${oponenteCaptres.nome} tinha uma filha mais velha chamada Motildes Eduanalda Andranofildes, esta, pediu demissão do Banco Miado do Sul, para ter tempo para lutar pela causa das agomelatinas voadoras marcianas portuguesas!`);
+    console.log(`Além do filho desajustado, ${oponenteCaptres.nome} tinha uma filha mais velha chamada Motildes Dunalda Andranofildes, esta, pediu demissão do Banco Miado do Sul, para ter tempo para lutar pela causa das agomelatinas voadoras marcianas portuguesas!`);
     console.log('\n');
     console.log(`Toda essa intro para explanar o quanto ${jogador.nome} estava em maus lençóis nessa batalha!`);
     console.log('\n');

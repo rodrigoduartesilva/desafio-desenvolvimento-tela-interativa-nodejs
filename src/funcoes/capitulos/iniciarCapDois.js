@@ -10,7 +10,6 @@ function iniciarCapDois(jogador) {
     console.log(`***** Inicio do Capitulo 2 *****`);
     console.log('\n');
 
-    console.log('\n');
     console.log(`Finalmente, o grande dia chegou!`);
     console.log('\n');
     console.log(`${jogador.nome} foi para a casa do Tio Jeremias, para então, juntos, irem ao torneio!`);
@@ -36,7 +35,6 @@ function iniciarCapDois(jogador) {
 
     const oponenteCapDois = new Oponente('Liturgo Samavarola', 'Masculino', 100, 5);
 
-    console.log('\n');
     console.log(`Mais tarde, o sorteio é realizado e o primeiro oponente de ${jogador.nome} será: ${oponenteCapDois.nome}.`);
     console.log('\n');
     console.log(`A luta se iniciaria em alguns minutos, ${jogador.nome} entra na arena e todos começam a aplaudir, assim como aplaudem ${oponenteCapDois.nome}.`);
@@ -58,12 +56,11 @@ function iniciarCapDois(jogador) {
 
     calcularParImpar(jogador, oponenteCapDois);
 
-    console.log('\n');
     console.log(`Ahhhhhhhhh!! Grita ${oponenteCapDois.nome}.`);
     console.log('\n');
     console.log(`Você ganhou por pura sorte! Continua o oponente perdedor.`);
     console.log('\n');
-    console.log(`O juíz da luta declara em voz alta o final da batalha e congratula ${jogador.nome}`);
+    console.log(`O juíz da luta declara em voz alta o final da batalha e congratula ${jogador.nome}.`);
     console.log('\n');
     console.log(`${oponenteCapDois.nome} sai da arena ao som de vaias, em seguida, desaparece ao passar pela entrada do vestiário!`);
     console.log('\n');

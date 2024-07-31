@@ -22,7 +22,6 @@ function exibirResultadoBatalha(jogador, oponente) {
 
             console.log('\n');
             console.log(`É isso!!! Você venceu!!!`);
-            console.log('\n');
 
         } else {
 

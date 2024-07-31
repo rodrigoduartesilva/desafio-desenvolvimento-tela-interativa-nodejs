@@ -30,7 +30,7 @@ function iniciarCapQuatroParteUm(jogador) {
     console.log('\n');
     console.log(`...Esteliosvaldo Birigogilson da Silva (Luzes brilhando ao redor do nome!)`);
     console.log('\n');
-    console.log(`Não me chame desse nome!! Gritou Mananimus, agora Esteliosvaldo!`);
+    console.log(`Não me chame desse nome!! Gritou Magnanimus, agora Esteliosvaldo!`);
 
     console.log('\n');
     console.log(`***** Fim da parte 1 *****`);

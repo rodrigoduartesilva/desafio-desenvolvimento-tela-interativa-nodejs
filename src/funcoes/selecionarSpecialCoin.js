@@ -18,7 +18,7 @@ function selecionarSpecialCoin(jogador, cocatriz) {
                 console.log('\n');
                 console.log(`Você obteve um balde de whey protein... mano... sério isso?`);
                 console.log('\n');
-                console.log('Whey protein quando usado, restaura 10 de vida e 10 de força!');
+                console.log('Whey protein quando usado, restaura 10 de vida!');
                 jogador.wheyProtein += 1;
                 validaWhile = false;
                 break;
