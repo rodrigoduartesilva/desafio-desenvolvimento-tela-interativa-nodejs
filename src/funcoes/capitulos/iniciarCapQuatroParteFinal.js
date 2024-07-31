@@ -3,6 +3,8 @@ const prompt = require('prompt-sync')();
 const Oponente = require("../../classes/Oponente");
 const calcularParImpar = require("../calcularParImpar");
 const pressionarEnter = require("../pressionarEnter");
+const iniciarEpilogoDois = require('./iniciarEpilogoDois');
+const iniciarEpilogoUm = require('./iniciarEpilogoUm');
 
 function iniciarCapQuatroParteFinal(jogador) {
 
@@ -32,7 +34,7 @@ function iniciarCapQuatroParteFinal(jogador) {
     console.log('\n');
     console.log(`Você conseguiu!! Um incrédulo ${magnanimus.nome} indaga.`);
     console.log('\n');
-    console.log(`Acabou primo! Volte conosco pra casa! Traga também Samira - A gata! Disse ${jogador.nome}`);
+    console.log(`Acabou primo! Volte conosco pra casa! Traga também Samira - A gata! Disse ${jogador.nome}.`);
     console.log('\n');
     console.log(`Tio Jeremias chorava, e pedia para que ${magnanimus.nome} voltasse.`);
     console.log('\n');
@@ -68,7 +70,7 @@ function iniciarCapQuatroParteFinal(jogador) {
                 console.log('Você escolheu a opção 1 - Sim.');
                 console.log('\n');
                 pressionarEnter();
-                iniciarEpilogoUm();
+                iniciarEpilogoUm(jogador, magnanimus);
                 break;
 
             case 2:
@@ -76,7 +78,7 @@ function iniciarCapQuatroParteFinal(jogador) {
                 console.log('Você escolheu a opção 2 - Não.');
                 console.log('\n');
                 pressionarEnter();
-                iniciarEpilogoDois();
+                iniciarEpilogoDois(jogador, magnanimus);
                 break;
 
             default:
@@ -89,7 +91,7 @@ function iniciarCapQuatroParteFinal(jogador) {
 
     } while (opcao < 1 || opcao > 2);
 
-    console.log(`***** Fim ????? *****`);
+    console.log(`***** Fim!!!! *****`);
     console.log('\n');
     pressionarEnter();
     console.log('\n');
