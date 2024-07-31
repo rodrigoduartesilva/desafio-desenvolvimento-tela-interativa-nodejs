@@ -2,6 +2,7 @@ const Oponente = require("../../classes/Oponente");
 const calcularParImpar = require("../calcularParImpar");
 const pressionarEnter = require("../pressionarEnter");
 
+// Chamda da função que inicia o capitulo 3
 function iniciarCapTres(jogador) {
 
     console.log('\n');
@@ -31,7 +32,7 @@ function iniciarCapTres(jogador) {
     console.log('\n');
     console.log(`${(oponenteCaptres.nome).slice(0, 10)} sempre usava de mentiras e calunias para se sair bem. Antes de ir trapacear nas arenas, ela era pedicure, mas um dia ela chegou no trabalho e a policia havia interditado o local por suspeita de tráfico de DORGAS.`);
     console.log('\n');
-    console.log(`Dorgas era um alucinógeno criado a partir da podobromidrose (na minha terra o povo chama isso de chulé!), o criador desse alucinógeno era ninguem menos que Dunaldo Andranofildes, o filho mais novo de ${(oponenteCaptres.nome).slice(0, 10)}.`);
+    console.log(`Dorgas era um alucinógeno criado a partir da podobromidrose (na minha terra o povo chama isso de chulé!), o criador desse alucinógeno era ninguem menos que Dunaldo Andranofildes, o filho mais novo de ${(oponenteCaptres.nome).slice(0, 10)}.`); // Nesse trecho do codigo, foi usado o metodos .slice para fatiar uma parte da string e exibi-la de forma amigavel dentro da aplicação 
     console.log('\n');
     pressionarEnter();
     console.log('\n');
@@ -58,6 +59,7 @@ function iniciarCapTres(jogador) {
     pressionarEnter();
     console.log('\n');
 
+    // Chamada da função que calcula o valor da luta onde se retorna par ou impar, gerando assim um vencedor
     calcularParImpar(jogador, oponenteCaptres);
 
     console.log(`Mais uma luta vencida por ${jogador.nome}!`);

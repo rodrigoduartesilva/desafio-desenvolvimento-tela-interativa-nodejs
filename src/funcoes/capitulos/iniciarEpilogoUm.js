@@ -1,3 +1,4 @@
+// Chamda da função que inicia o epilogo um (primeiro final)
 function iniciarEpilogoUm(jogador, magnanimus) {
 
     console.log('\n');

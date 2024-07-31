@@ -1,5 +1,6 @@
 const pressionarEnter = require("../pressionarEnter");
 
+// Chamda da função que inicia o capitulo 4 parte 2
 function iniciarCapQuatroParteDois(jogador) {
 
     let cocatriz = jogador.sexo == 'Masculino' ? 'franguinho' : 'franguinha';
@@ -40,6 +41,9 @@ function iniciarCapQuatroParteDois(jogador) {
     console.log(`E então, ${jogador.nome} usa ${nomeItem}!`);
 
 
+    // Essa condicional seleciona um item de acordo com a quantidade nele guardada em memoria
+    // sendo possivel escolher exclusivamente um deles, já que a escolha de um no inicio do programa, exclue a 
+    // possibilidade de ganho do outro
     if (jogador.specialCoin > 0) {
 
         jogador.restaurarVida(1);

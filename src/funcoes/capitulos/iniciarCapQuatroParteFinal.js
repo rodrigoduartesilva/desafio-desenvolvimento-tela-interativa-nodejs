@@ -6,6 +6,7 @@ const pressionarEnter = require("../pressionarEnter");
 const iniciarEpilogoDois = require('./iniciarEpilogoDois');
 const iniciarEpilogoUm = require('./iniciarEpilogoUm');
 
+// Chamda da função que inicia o capitulo 4 parte final
 function iniciarCapQuatroParteFinal(jogador) {
 
     let cocatriz = jogador.sexo == 'Masculino' ? 'franguinho' : 'franguinha';
@@ -57,6 +58,8 @@ function iniciarCapQuatroParteFinal(jogador) {
     console.log(`...e finalmente responde: Miau!`);
     console.log('\n');
 
+    // Ao final da historia, o jogador deve escolher uma, dentre duas opções onde teremos um final diferente
+    // para cada escolha. O laço de repetição serve para validar uma entrada valida para a escolha.
     do {
 
         opcao = +prompt('Samira - A gata, deve retornar? 1 - Sim | 2 - Não: ');

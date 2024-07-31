@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
 
+// Essa função será chamada quando o usuário precisar selecionar o sexo do personagem durante a criação deste
+// no inicio da aplicação
 function selecionarSexoDoPersonagem() {
 
     let sexoSelecionado;

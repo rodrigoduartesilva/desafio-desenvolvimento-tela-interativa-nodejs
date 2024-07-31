@@ -1,5 +1,6 @@
 const pressionarEnter = require("../pressionarEnter");
 
+// Chamda da função que inicia o epilogo dois (segundo final)
 function iniciarEpilogoDois(jogador, magnanimus) {
 
     console.log('\n');

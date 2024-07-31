@@ -1,5 +1,6 @@
 const pressionarEnter = require("../pressionarEnter");
 
+// Chamda da função que inicia o prologo
 function iniciarPrologo(jogador) {
 
     console.log('\n');

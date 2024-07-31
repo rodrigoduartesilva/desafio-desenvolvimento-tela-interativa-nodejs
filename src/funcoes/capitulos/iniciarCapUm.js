@@ -1,6 +1,7 @@
 const pressionarEnter = require("../pressionarEnter");
 const selecionarSpecialCoin = require('../selecionarSpecialCoin');
 
+// Chamda da função que inicia o capitulo 1
 function iniciarCapUm(jogador) {
 
     let cocatriz = jogador.sexo == 'Masculino' ? 'franguinho' : 'franguinha';
@@ -61,7 +62,7 @@ function iniciarCapUm(jogador) {
     console.log('\n');
     console.log(`Magnanimus então se recompõe, olha para ${jogador.nome} e novamente dá sua habitual risada: Ha ha ha!`);
     console.log('\n');
-    console.log(`${cocatriz[0].toUpperCase() + cocatriz.slice(1)} sabe bicar! Continua o vilão de aparência quase albina!`);
+    console.log(`${cocatriz[0].toUpperCase() + cocatriz.slice(1)} sabe bicar! Continua o vilão de aparência quase albina!`);// cocatriz[0].toUpperCase() + cocatriz.slice(1) tranforma a primeira posição da string em maiuscula
     console.log('\n');
     pressionarEnter();
     console.log('\n');
@@ -84,6 +85,7 @@ function iniciarCapUm(jogador) {
     console.log(`Magnanimus olha para ${jogador.nome} e diz: Você deverá usa-la na hora mais escura, na noite mais densa! Quando essa hora chegar, você saberá!`);
     console.log('\n');
 
+    // Chamada da função usada para selecionar o item que será usado na ultima parte da aplicação
     selecionarSpecialCoin(jogador, cocatriz);
 
     console.log('\n');

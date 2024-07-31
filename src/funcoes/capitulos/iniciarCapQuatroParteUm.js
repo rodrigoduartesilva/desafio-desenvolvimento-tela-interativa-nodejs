@@ -1,5 +1,6 @@
 const pressionarEnter = require("../pressionarEnter");
 
+// Chamda da função que inicia o capitulo 4 parte 1
 function iniciarCapQuatroParteUm(jogador) {
 
     let cocatriz = jogador.sexo == 'Masculino' ? 'franguinho' : 'franguinha';

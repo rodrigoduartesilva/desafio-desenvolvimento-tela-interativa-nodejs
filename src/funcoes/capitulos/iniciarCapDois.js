@@ -2,8 +2,7 @@ const Oponente = require('../../classes/Oponente');
 const calcularParImpar = require('../calcularParImpar');
 const pressionarEnter = require('../pressionarEnter');
 
-const prompt = require('prompt-sync')();
-
+// Chamda da função que inicia o capitulo 2
 function iniciarCapDois(jogador) {
 
     console.log('\n');

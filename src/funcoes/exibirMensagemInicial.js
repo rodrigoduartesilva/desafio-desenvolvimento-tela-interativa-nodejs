@@ -1,3 +1,4 @@
+// Função que exibe em tela uma mensagem no inicio da execução da aplicação
 function exibirMensagemInicial() {
 
     console.log('\n');

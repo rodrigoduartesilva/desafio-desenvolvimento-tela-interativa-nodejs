@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')();
 
+// Selecao do item da moeda especial, onde o jogado pode optar por ganha-la, ou entao escolher um outro premio
 function selecionarSpecialCoin(jogador, cocatriz) {
     let validaWhile = true;
 
