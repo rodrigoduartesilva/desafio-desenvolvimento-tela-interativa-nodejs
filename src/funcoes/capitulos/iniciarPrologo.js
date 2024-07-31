@@ -15,7 +15,7 @@ function iniciarPrologo(jogador) {
     console.log('\n');
     console.log(`Tio Jeremias tinha todos os filmes estrelados por Samira, assim como possuia um album de fotos e até uma caminha de gato onde ele afirmava categoricamente que aquela caminha foi a primeira caminha de Samira.`);
     console.log('\n');
-    console.log(`${jogador.nome} duvidava sempre que aquela caminha pertenceu a Samira, mas nunca falaria isso pra seu tio, que por vezes, ao falar da famosa gata, demostrava uma certa tristeza que ele não conseguia entender o porque!`);
+    console.log(`${jogador.nome} duvidava sempre que aquela caminha pertenceu a Samira, mas nunca falaria isso pra seu tio, que por vezes, ao falar da famosa gata, demostrava uma certa tristeza que ele(a) não conseguia entender o porque!`);
     console.log('\n');
     console.log(`No final da manhã, ${jogador.nome} se preparava para iniciar seu treino, quando tio Jeremias deu-lhe C$ 10 pela manhã de trabalho!`);
     console.log('\n');
@@ -25,7 +25,6 @@ function iniciarPrologo(jogador) {
     console.log(`${jogador.nome} sorriu e agradeceu seu tio, e logo em seguida, saiu para seu treino, afinal, o dia estava apenas começando!`);
     console.log('\n');
     pressionarEnter();
-    console.log('\n');
 
 }
 

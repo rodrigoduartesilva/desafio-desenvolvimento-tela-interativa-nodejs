@@ -1,31 +1,4 @@
-const iniciarCapDois = require('./src/funcoes/capitulos/iniciarCapDois.js');
-const iniciarCapQuatroParteDois = require('./src/funcoes/capitulos/iniciarCapQuatroParteDois.js');
-const iniciarCapQuatroParteFinal = require('./src/funcoes/capitulos/iniciarCapQuatroParteFinal.js');
-const iniciarCapQuatroParteUm = require('./src/funcoes/capitulos/iniciarCapQuatroParteUm.js');
-const iniciarCapTres = require('./src/funcoes/capitulos/iniciarCapTres.js');
-const iniciarCapUm = require('./src/funcoes/capitulos/iniciarCapUm.js');
-const iniciarPrologo = require('./src/funcoes/capitulos/iniciarPrologo.js');
-const criarPersonagem = require('./src/funcoes/criarPersonagem.js');
-const exibirIntroducao = require('./src/funcoes/exibirIntroducao.js');
-const exibirMensagemInicial = require('./src/funcoes/exibirMensagemInicial.js');
-const pressionarEnter = require('./src/funcoes/pressionarEnter.js');
+const iniciarTextGame = require("./src/funcoes/iniciarTextGame");
 
 
-// Mensagem inicial
-exibirMensagemInicial();
-
-//exibirIntroducao();
-
-pressionarEnter();
-
-let jogador = criarPersonagem();
-
-pressionarEnter();
-
-//iniciarPrologo(jogador);
-//iniciarCapUm(jogador);
-//iniciarCapDois(jogador);
-//iniciarCapTres(jogador);
-//iniciarCapQuatroParteUm(jogador);
-//iniciarCapQuatroParteDois(jogador);
-iniciarCapQuatroParteFinal(jogador);
+iniciarTextGame();

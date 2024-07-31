@@ -19,6 +19,7 @@ function iniciarCapDois(jogador) {
     console.log(`Reabastecido, Tio Jeremias agora saca a carteira para fazer o pagamento, no entanto, ele nota que saiu de casa e não pegou a carteira!`);
     console.log('\n');
     pressionarEnter();
+    console.log('\n');
     console.log(`${jogador.nome}, esqueci a carteira, você pode emprestar dinheiro para que eu possa pagar o combustível, o valor é C$ 5. Diz o tio todo sem graça!`);
     console.log('\n');
     console.log(`${jogador.nome} afirma positivamente com a cabeça e saca sua carteira, ele(a) tinha apenas C$ ${jogador.moedas} que foi o dinheiro que seu tio pagou pelo trabalho dos dias anteriores.`);
@@ -78,6 +79,8 @@ function iniciarCapDois(jogador) {
     console.log('\n');
 
     console.log(`***** Fim do Capitulo 2 *****`);
+    console.log('\n');
+    pressionarEnter();
     console.log('\n');
 }
 

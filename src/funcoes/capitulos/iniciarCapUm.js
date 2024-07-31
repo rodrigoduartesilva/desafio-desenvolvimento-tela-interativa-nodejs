@@ -15,7 +15,7 @@ function iniciarCapUm(jogador) {
     console.log('\n');
     console.log(`Era uma rotina exaustiva. Entre flexões e levantamento de peso, ${jogador.nome} ainda estudava pro Enem, e seu sonho era dar aulas de educação física.`);
     console.log('\n');
-    console.log(`Duas horas depois, ${jogador.nome}, já se preparava para ir para casa, quando em um canto afastado de sala, escuta-se uma risada, não era alta e havia uma certa classe nela.`);
+    console.log(`Duas horas depois, ${jogador.nome}, já se preparava para ir para casa, quando em um canto afastado da sala, escuta-se uma risada, não era alta e havia uma certa classe nela.`);
     console.log('\n');
     console.log(`Ha ha ha!`);
     console.log('\n');

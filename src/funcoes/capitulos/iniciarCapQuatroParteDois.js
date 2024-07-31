@@ -43,10 +43,12 @@ function iniciarCapQuatroParteDois(jogador) {
     if (jogador.specialCoin > 0) {
 
         jogador.restaurarVida(1);
+        jogador.specialCoin = 0;
 
     } else {
 
         jogador.restaurarVida(2);
+        jogador.wheyProtein = 0;
 
     }
 

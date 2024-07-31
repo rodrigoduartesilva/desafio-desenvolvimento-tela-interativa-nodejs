@@ -11,7 +11,6 @@ function iniciarCapQuatroParteFinal(jogador) {
     let cocatriz = jogador.sexo == 'Masculino' ? 'franguinho' : 'franguinha';
     let opcao;
 
-    console.log('\n');
     console.log(`***** Inicio do Capitulo 4 - Parte Final *****`);
     console.log('\n');
 
