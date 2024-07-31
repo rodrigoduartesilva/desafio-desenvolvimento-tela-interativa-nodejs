@@ -1,12 +1,16 @@
 const Personagem = require("../classes/Personagem.js");
 
+//Essa classe é resposavel pela abstração do jogador, é a partir dela que podemos criar nosso personagem
 class Jogador extends Personagem {
     moedas = 0;
     specialCoin = 0;
     wheyProtein = 0;
 
+    //Construtor onde serão passado os atributos no ato da instanciação da classe dentro da aplicação
     constructor(nome, sexo, forca, vida, specialCoin, wheyProtein) {
+        //atributo herdado da classe mãe (Personagem)
         super(vida);
+
         this.nome = nome;
         this.sexo = sexo;
         this.vida = vida;
@@ -15,6 +19,7 @@ class Jogador extends Personagem {
         this.wheyProtein = wheyProtein;
     }
 
+    //Este método tem como objetivo imprimir no terminal o status do personagem
     statusPersonagem() {
         console.log('\n');
         console.log('****** Status do Personagem ******');
@@ -29,14 +34,17 @@ class Jogador extends Personagem {
         console.log('\n');
     }
 
+    //Este método tem a função de somar as moedas do personagem dentro do jogo
     somarMoedas(moedas) {
         this.moedas += moedas;
     }
 
+    //Este método tem a função de sacar as moedas do personagem dentro do jogo
     sacarMoedas(moedas) {
         this.moedas -= moedas;
     }
 
+    //Este método tem a função de restaurar a vida do personagem dentro do jogo
     restaurarVida(valor) {
 
         if (valor == 1) {
@@ -51,6 +59,7 @@ class Jogador extends Personagem {
 
     }
 
+    //Este método tem a função de subtrair a vida do personagem quando ele é atacado dentro do jogo
     defender(golpe) {
         this.vida -= golpe;
     }

@@ -3,17 +3,10 @@ class Personagem {
         this.vida = vida;
     }
 
-    atacar() {
-
-    }
-
     defender() {
-
+        //Este método será sobrescrito pelas classes filhas afim de exemplificar o conceito de polimorfimos em OO.
     }
 
-    ataqueEsp() {
-
-    }
 }
 
 module.exports = Personagem;
