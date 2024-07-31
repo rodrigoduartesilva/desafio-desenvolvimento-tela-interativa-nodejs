@@ -2,16 +2,14 @@ const Personagem = require("../classes/Personagem.js");
 
 class Jogador extends Personagem {
     moedas = 0;
-    forcaAtaqueEsp = 0;
     specialCoin = 0;
     wheyProtein = 0;
 
-    constructor(nome, sexo, forca, vida, forcaAtaqueEsp, specialCoin, wheyProtein) {
-        super(vida, forcaAtaqueEsp);
+    constructor(nome, sexo, forca, vida, specialCoin, wheyProtein) {
+        super(vida);
         this.nome = nome;
         this.sexo = sexo;
         this.vida = vida;
-        this.forcaAtaqueEsp = forcaAtaqueEsp;
         this.forca = forca;
         this.specialCoin = specialCoin;
         this.wheyProtein = wheyProtein;
@@ -31,15 +29,6 @@ class Jogador extends Personagem {
         console.log('\n');
     }
 
-    alimentar(fome, vida) {
-        this.fome += fome;
-        this.vida += vida;
-    }
-
-    treinar(treino) {
-        this.forca += treino;
-    }
-
     somarMoedas(moedas) {
         this.moedas += moedas;
     }
@@ -48,22 +37,24 @@ class Jogador extends Personagem {
         this.moedas -= moedas;
     }
 
-    restaurarStatus() {
-        this.vida = 100;
-        this.forca = 100;
-    }
+    restaurarVida(valor) {
 
-    restaurarVida() {
-        this.vida += 100;
-    }
+        if (valor == 1) {
 
-    atacar() {
-        return Math.floor(Math.random() * (this.vida + this.forca));
+            this.vida = 100;
+
+        } else {
+
+            this.vida += 10;
+
+        }
+
     }
 
     defender(golpe) {
         this.vida -= golpe;
     }
+
 }
 
 module.exports = Jogador;

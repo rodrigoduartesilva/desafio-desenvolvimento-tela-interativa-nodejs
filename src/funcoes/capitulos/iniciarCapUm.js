@@ -64,13 +64,14 @@ function iniciarCapUm(jogador) {
     console.log('\n');
     console.log(`E sem parar de falar, ele completa: Você tem um grande potêncial, se souber controlar essa fúria que hábita seu coração, conseguirá chegar longe... ...${cocatriz} !`);
     console.log('\n');
-    console.log(`Tome esse prêmio, eu a chamo de "special coin", o efeito dela é aleatório, ela pode te dar mais força ou mais vida, ela pode te dar um playstation 5 ou até um pouco de milho, já que você é ${cocatriz} ... ... ${cocatriz} ! Nunca se sabe de fato o que ela te dará!`);
+    console.log(`Tome esse prêmio, eu a chamo de "special coin", ela pode te dar 100% de vida!`);
     console.log('\n');
     console.log(`Use-a com sabedoria! Não que eu ache que você, aspirante a cocatriz de 5ª, tenha sabedoria, mas vale o aviso... ...${cocatriz} !`);
     console.log('\n');
     console.log(`${jogador.nome} então fala: Não tenho livre arbitrio, faço apenas o que o narrador diz, não terei sabedoria para usar a "special coin", você não quer mudar esse prêmio e me dar um balde de whey protein?`);
     console.log('\n');
     pressionarEnter();
+    console.log('\n');
     console.log(`Magnanimus sem acreditar no que acabou de ouvir, respira fundo, fecha os olhos e pensa: ${easterChaves}`);
     console.log('\n');
     console.log(`E então o vilão se recompõe e diz pra si mesmo: Calma Mag!! Isso aqui não é uma produção da Televisa, isso aqui é um mangá escrito por um cara da Paraíba que mora em algum lugar do Rio de Janeiro, não dá pra esperar muito!`);
@@ -89,14 +90,14 @@ function iniciarCapUm(jogador) {
         console.log('\n');
         console.log(`Uma mensagem toda colorida salta na tela: `);
         console.log('\n');
-        console.log(`Você ganhou uma special coin, use-a com sabedoria!!!!!!!!!!!!`);
+        console.log(`Você ganhou uma special coin (100% de vida ao usar), use-a com sabedoria!!!!!!!!!!!!`);
         console.log('\n');
     } else {
         console.log(`${jogador.nome} pensa: Jesus... hoje eu vou me afogar no leite com whey protein e granola! Digo nada!`);
         console.log('\n');
         console.log(`Uma mensagem toda colorida salta na tela: `);
         console.log('\n');
-        console.log(`Você ganhou um balde de whey protein, use-o com sabedoria! (Para com esse negócio de colocar granola, eu hein!)`);
+        console.log(`Você ganhou um balde de whey protein (10% de vida ao usar), use-o com sabedoria! (Para com esse negócio de colocar granola, eu hein!)`);
         console.log('\n');
     }
 

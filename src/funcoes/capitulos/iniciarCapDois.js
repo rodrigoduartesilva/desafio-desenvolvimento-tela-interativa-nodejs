@@ -34,7 +34,7 @@ function iniciarCapDois(jogador) {
     console.log(`Tio Jeremias olha as fotos com alegria e até faz uma feição de orgulho!`);
     console.log('\n');
 
-    const oponenteCapDois = new Oponente('Liturgo Samavarola', 'Masculino', 100, 0, 5);
+    const oponenteCapDois = new Oponente('Liturgo Samavarola', 'Masculino', 100, 5);
 
     console.log('\n');
     console.log(`Mais tarde, o sorteio é realizado e o primeiro oponente de ${jogador.nome} será: ${oponenteCapDois.nome}.`);

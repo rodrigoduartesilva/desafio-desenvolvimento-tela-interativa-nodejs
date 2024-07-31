@@ -1,7 +1,6 @@
 class Personagem {
-    constructor(vida, forcaAtaqueEsp) {
+    constructor(vida) {
         this.vida = vida;
-        this.forcaAtaqueEsp = forcaAtaqueEsp;
     }
 
     atacar() {

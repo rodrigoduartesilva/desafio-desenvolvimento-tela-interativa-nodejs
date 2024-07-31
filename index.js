@@ -1,4 +1,7 @@
 const iniciarCapDois = require('./src/funcoes/capitulos/iniciarCapDois.js');
+const iniciarCapQuatroParteDois = require('./src/funcoes/capitulos/iniciarCapQuatroParteDois.js');
+const iniciarCapQuatroParteFinal = require('./src/funcoes/capitulos/iniciarCapQuatroParteFinal.js');
+const iniciarCapQuatroParteUm = require('./src/funcoes/capitulos/iniciarCapQuatroParteUm.js');
 const iniciarCapTres = require('./src/funcoes/capitulos/iniciarCapTres.js');
 const iniciarCapUm = require('./src/funcoes/capitulos/iniciarCapUm.js');
 const iniciarPrologo = require('./src/funcoes/capitulos/iniciarPrologo.js');
@@ -22,4 +25,7 @@ pressionarEnter();
 //iniciarPrologo(jogador);
 //iniciarCapUm(jogador);
 //iniciarCapDois(jogador);
-iniciarCapTres(jogador);
+//iniciarCapTres(jogador);
+//iniciarCapQuatroParteUm(jogador);
+//iniciarCapQuatroParteDois(jogador);
+iniciarCapQuatroParteFinal(jogador);
